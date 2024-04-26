@@ -19,7 +19,7 @@ This is a template/boilterplate for a REST API using Gin, Postgres, SQLC and Doc
 - SQLC configured for type-safe SQL queries
 - Dockerized development environment
 - Fully dockerized production environment with multi-stage build for minimal image size, pgadmin for database management and managed migrations
-- Cleanly API structure
+- Clean folder structure for the project
 
 ## Getting Started
 
