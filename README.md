@@ -77,47 +77,49 @@ air
 ## Folder Structure
 
 ```
-│ .air.toml
-│ .env.example
-│ .gitignore
-│ docker-compose.dev.yml
-│ docker-compose.yml
-│ Dockerfile
-│ go.mod
-│ go.sum
-│ main.go
-│ Makefile
-│ README.md
-│ sqlc.yaml
-│ start.sh
-│ wait-for-it.sh
+│   .air.toml
+│   .dockerignore
+│   .env.example
+│   .gitignore
+│   docker-compose.dev.yml
+│   docker-compose.yml
+│   Dockerfile
+│   go.mod
+│   go.sum
+│   main.go
+│   Makefile
+│   README.md
+│   sqlc.yaml
+│   start.sh
+│   tree.txt
+│   wait-for-it.sh
 │
 ├───api
-│ ├───auth
-│ │ auth.go
-│ │
-│ ├───example
-│ │ example.go
-│ │
-│ └───utils
-│ utils.go
+│   ├───auth
+│   │       auth.go
+│   │
+│   ├───example
+│   │       example.go
+│   │
+│   └───utils
+│           utils.go
 │
 ├───db
-│ ├───migrations
-│ │ 000001_init.down.sql
-│ │ 000001_init.up.sql
-│ │
-│ ├───query
-│ │ auth.sql
-│ │
-│ └───sqlc
-│ auth.sql.go
-│ db.go
-│ models.go
-│ postgres.go
+│   ├───migrations
+│   │       000001_init.down.sql
+│   │       000001_init.up.sql
+│   │
+│   ├───query
+│   │       auth.sql
+│   │
+│   └───sqlc
+│           auth.sql.go
+│           db.go
+│           models.go
+│           postgres.go
 │
 ├───middlewares
-│ authMiddleware.go
-│ corsMiddleware.go
-│ verifySession.go
+│       authMiddleware.go
+│       corsMiddleware.go
+│       verifySession.go
 ```
