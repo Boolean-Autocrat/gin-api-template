@@ -76,6 +76,7 @@ air
 
 ## Folder Structure
 
+```
 │ .air.toml
 │ .env.example
 │ .gitignore
@@ -90,32 +91,33 @@ air
 │ sqlc.yaml
 │ start.sh
 │ wait-for-it.sh
-│  
+│
 ├───api
 │ ├───auth
 │ │ auth.go
-│ │  
+│ │
 │ ├───example
 │ │ example.go
-│ │  
+│ │
 │ └───utils
 │ utils.go
-│  
+│
 ├───db
 │ ├───migrations
 │ │ 000001_init.down.sql
 │ │ 000001_init.up.sql
-│ │  
+│ │
 │ ├───query
 │ │ auth.sql
-│ │  
+│ │
 │ └───sqlc
 │ auth.sql.go
 │ db.go
 │ models.go
 │ postgres.go
-│  
+│
 ├───middlewares
 │ authMiddleware.go
 │ corsMiddleware.go
 │ verifySession.go
+```
