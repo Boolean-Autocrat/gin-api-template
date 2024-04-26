@@ -26,8 +26,8 @@ This is a template/boilterplate for a REST API using Gin, Postgres, SQLC and Doc
 1. Clone the repository
 
 ```bash
-git clone https://github.com/Boolean-Autocrat/gin-api-template.git
-cd gin-api-template
+git clone https://github.com/Boolean-Autocrat/gin-api-template.git <project_name>
+cd <project_name>
 ```
 
 3. Copy the `.env.example` file to `.env` and update the values.
