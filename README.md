@@ -83,7 +83,7 @@ air
 - `POSTGRES_PASSWORD` - Password for the postgres database
 - `POSTGRES_DB` - Database name for the postgres database
 - `DB_SOURCE` - Connection string for the postgres database
-- `PORT` - Port for the api server
+- `PORT` - Port for the gin server
 - `GIN_MODE` - Mode for the gin server (debug/release)
 - `PGADMIN_DEFAULT_EMAIL` - Default email for pgadmin
 - `PGADMIN_DEFAULT_PASSWORD` - Default password for pgadmin
@@ -92,7 +92,7 @@ air
 - `GOOGLE_REDIRECT_URL` - Google OAuth2 redirect url
 - `LOGIN_REDIRECT_URL` - Redirect url after login
 - `LOGOUT_REDIRECT_URL` - Redirect url after logout
-- `COOKIE_SET_URL` - URL to set the cookie
+- `COOKIE_SET_URL` - Domain to set the cookie
 
 ## File Structure
 
