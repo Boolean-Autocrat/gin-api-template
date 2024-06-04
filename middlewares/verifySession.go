@@ -31,7 +31,7 @@ func verifySession(c *gin.Context, s *Service) {
 			Token: new_token,
 		})
 		if sessionErr != nil {
-			log.Print(err.Error())
+			log.Print(sessionErr.Error())
 			c.AbortWithStatusJSON(500, gin.H{"message": "internal server error"})
 			return
 		}
