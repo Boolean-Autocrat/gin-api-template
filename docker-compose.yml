@@ -1,4 +1,3 @@
-version: "3.9"
 services:
   postgres:
     image: postgres:16-alpine3.19
@@ -36,7 +35,7 @@ services:
       postgres:
         condition: service_healthy
     entrypoint: ["./wait-for-it.sh", "postgres:5432", "--", "/app/start.sh"]
-    command: ["/app/main"]
+    command: ["/app/server"]
 volumes:
   postgres_data:
   pgadmin_data:

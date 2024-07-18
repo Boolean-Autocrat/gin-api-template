@@ -33,3 +33,4 @@ tmp
 
 # ignore postgres data
 postgres-data
+pgadmin-data
