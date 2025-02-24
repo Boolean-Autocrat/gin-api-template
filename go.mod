@@ -1,6 +1,7 @@
 module app
 
 go 1.22.0
+toolchain go1.23.6
 
 require (
 	github.com/gin-contrib/sessions v1.0.2
@@ -8,7 +9,7 @@ require (
 	github.com/google/uuid v1.6.0
 	github.com/joho/godotenv v1.5.1
 	github.com/lib/pq v1.10.9
-	golang.org/x/crypto v0.33.0
+	golang.org/x/crypto v0.34.0
 	golang.org/x/oauth2 v0.26.0
 )
 
