@@ -5,8 +5,8 @@ go 1.23.0
 toolchain go1.24.1
 
 require (
-	github.com/gin-contrib/sessions v1.0.3
-	github.com/gin-gonic/gin v1.10.0
+	github.com/gin-contrib/sessions v1.0.4
+	github.com/gin-gonic/gin v1.10.1
 	github.com/google/uuid v1.6.0
 	github.com/joho/godotenv v1.5.1
 	github.com/lib/pq v1.10.9
